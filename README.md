@@ -1,3 +1,11 @@
+Find files in .bit .tcl in
+ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs
+
+find .hwh in
+ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/hw_handoff
+
+And rename all files so they have identical basename
+
 ```
 .
 └── ZedboardMemristorControl
