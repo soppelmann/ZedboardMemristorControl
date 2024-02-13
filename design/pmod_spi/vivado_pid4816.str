@@ -1,0 +1,642 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 4816
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Tue Feb 13 13:29:09 CET 2024
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 6
+
+Screen size: 1920x1080
+Screen resolution (DPI): 175
+Available screens: 2
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=21
+Scale size: 37
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Antonios
+User home directory: C:/Users/Anton
+User working directory: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.2
+RDI_DATADIR: C:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/Anton/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/Anton/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/Anton/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/vivado.log
+Vivado journal file location: 	C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/vivado.jou
+Engine tmp dir: 	C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/.Xil/Vivado-4816-LAPTOP-J0FVCJLM
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.2
+XILINX_SDK: C:/Xilinx/Vitis/2020.2
+XILINX_VITIS: C:/Xilinx/Vitis/2020.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 846 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 85 MB (+86902kb) [00:00:07]
+// [Engine Memory]: 846 MB (+735853kb) [00:00:07]
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Zedboard_Projects\ZedboardMemristorControl\design\pmod_spi\pmod_spi.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 846 MB. GUI used memory: 56 MB. Current time: 2/13/24, 1:29:10 PM CET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 107 MB (+18369kb) [00:00:22]
+// [GUI Memory]: 114 MB (+1179kb) [00:00:22]
+// WARNING: HEventQueue.dispatchEvent() is taking  4152 ms.
+// Tcl Message: open_project C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/getz/dev/pmod_spi' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 1156.602 ; gain = 0.000 
+// Project name: pmod_spi; location: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi; part: xc7z020clg484-1
+dismissDialog("Open Project"); // bz
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 132 MB (+12997kb) [00:00:36]
+// [GUI Memory]: 145 MB (+7055kb) [00:01:42]
+// HMemoryUtils.trashcanNow. Engine heap size: 920 MB. GUI used memory: 110 MB. Current time: 2/13/24, 1:35:11 PM CET
+// [Engine Memory]: 926 MB (+39358kb) [00:06:13]
+// Elapsed time: 348 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+// Launch External Editor: 'code "C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v"'
+// HOptionPane Error: 'Unable to launch external text editor using the following arguments:  'code "C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/hdl/design_1_wrap...'  Please verify that the editor is installed on your system, specified in your PATH, and the path contains no double quotes (e.g., "[path to editor]"). (Unable to Launch External Text Editor)'
+// [GUI Memory]: 161 MB (+9053kb) [00:06:16]
+selectButton("OptionPane.button", "OK"); // JButton
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, false, true); // D - Double Click - Node
+// bz (cr):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: open_bd_design {C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/design_1.bd} 
+// Tcl Message: Reading block design file <C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/design_1.bd>... 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 1,040 MB (+71195kb) [00:06:30]
+// WARNING: HEventQueue.dispatchEvent() is taking  2592 ms.
+// [GUI Memory]: 172 MB (+3514kb) [00:06:33]
+// [Engine Memory]: 1,094 MB (+1583kb) [00:06:33]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,108 MB. GUI used memory: 121 MB. Current time: 2/13/24, 1:35:32 PM CET
+// Elapsed time: 14 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 1308.344 ; gain = 151.742 
+// [Engine Memory]: 1,151 MB (+2121kb) [00:06:34]
+dismissDialog("Open Block Design"); // bz
+// [GUI Memory]: 182 MB (+1147kb) [00:06:42]
+// Elapsed time: 30 seconds
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, Ports, ex_ADC_1]", 4, false); // a
+// [GUI Memory]: 192 MB (+880kb) [00:07:06]
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, Ports, ex_ADC_1]", 4, false, false, false, false, false, true); // a - Double Click
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, Ports, ex_ADC_1]", 4, false); // a
+// Elapsed time: 185 seconds
+collapseTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, Nets]", 22); // a
+collapseTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, Ports]", 13); // a
+collapseTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, Interface Connections]", 2); // a
+// Elapsed time: 17 seconds
+collapseTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, Ports]", 3); // a
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aK
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, zedboard.xdc]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, zedboard.xdc]", 6, false, false, false, false, false, true); // D - Double Click
+// Launch External Editor: 'code "C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/constrs_1/new/zedboard.xdc"'
+// HOptionPane Error: 'Unable to launch external text editor using the following arguments:  'code "C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/constrs_1/new/zedboard.xdc"'  Please verify that the editor is installed on your system, specified in your PATH, and the path contains no double quotes (e.g., "[path to editor]"). (Unable to Launch External Text Editor)'
+selectButton("OptionPane.button", "OK"); // JButton
+// HMemoryUtils.trashcanNow. Engine heap size: 1,234 MB. GUI used memory: 138 MB. Current time: 2/13/24, 1:41:01 PM CET
+// [Engine Memory]: 1,234 MB (+27606kb) [00:12:04]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,254 MB. GUI used memory: 138 MB. Current time: 2/13/24, 1:42:01 PM CET
+// Elapsed time: 355 seconds
+selectCodeEditor("zedboard.xdc", 17, 334); // bP
+selectCodeEditor("zedboard.xdc", 685, 395); // bP
+typeControlKey((HResource) null, "zedboard.xdc", 'c'); // bP
+selectCodeEditor("zedboard.xdc", 740, 318); // bP
+selectCodeEditor("zedboard.xdc", 763, 322); // bP
+typeControlKey((HResource) null, "zedboard.xdc", 'v'); // bP
+// Elapsed time: 49 seconds
+selectCodeEditor("zedboard.xdc", 792, 325); // bP
+typeControlKey((HResource) null, "zedboard.xdc", 'c'); // bP
+selectCodeEditor("zedboard.xdc", 775, 333); // bP
+typeControlKey((HResource) null, "zedboard.xdc", 'v'); // bP
+typeControlKey(null, null, 'z');
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // m
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0, true, false); // m - Popup Trigger
+// Elapsed time: 44 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd), design_1 (design_1.v)]", 3); // D
+// Elapsed time: 325 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd), design_1 (design_1.v), ADC_1 : design_1_axi_gpio_0_2 (design_1_axi_gpio_0_2.xci)]", 4, false); // D
+// Elapsed time: 465 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // E
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI GPIO", 50, "AXI GPIO", 0, false); // L
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI GPIO", 50, "AXI GPIO", 0, false); // L
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI GPIO", 50); // L
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI GPIO", 50, "AXI GPIO", 0, false, false, false, false, false, true); // L - Double Click
+// Tcl Message: startgroup 
+// bz (cr):  Add IP : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_0 
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bz
+// Tcl Command: 'set_property location {5 1174 -108} [get_bd_cells axi_gpio_0]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {5 1174 -108} [get_bd_cells axi_gpio_0] 
+// Elapsed time: 26 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1181, 528, 2189, 1168, false, false, false, true, false); // hv - Popup Trigger
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cr): Re-customize IP: addNotify
+// Elapsed time: 18 seconds
+selectCheckBox(PAResourceEtoH.HACGCIPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", true); // g: TRUE
+selectCheckBox(PAResourceEtoH.HACGCIPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", false); // g: FALSE
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "IP Configuration", 1); // bi
+// Elapsed time: 16 seconds
+setText("GPIO Width", "1"); // B
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Tcl Command: 'set_property -dict [list CONFIG.C_GPIO_WIDTH {1}] [get_bd_cells axi_gpio_0]'
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+dismissDialog("Re-customize IP"); // r
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// Tcl Message: set_property -dict [list CONFIG.C_GPIO_WIDTH {1}] [get_bd_cells axi_gpio_0] 
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PROPERTY_CHANGE
+// r (cr): Re-customize IP: addNotify
+// bz (r):  Customize IP : addNotify
+dismissDialog("Customize IP"); // bz
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cr): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "IP Configuration", 1); // bi
+// Elapsed time: 13 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Re-customize IP"); // r
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cr): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "IP Configuration", 1); // bi
+selectCheckBox((HResource) null, "All Outputs", true); // g: TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Tcl Command: 'set_property -dict [list CONFIG.C_ALL_OUTPUTS {1}] [get_bd_cells axi_gpio_0]'
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+dismissDialog("Re-customize IP"); // r
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PROPERTY_CHANGE
+// r (cr): Re-customize IP: addNotify
+// bz (r):  Customize IP : addNotify
+// Tcl Message: set_property -dict [list CONFIG.C_ALL_OUTPUTS {1}] [get_bd_cells axi_gpio_0] 
+dismissDialog("Customize IP"); // bz
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // i
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i
+// [GUI Memory]: 202 MB (+318kb) [00:33:40]
+selectTab((HResource) null, (HResource) null, "Design", 1); // aK
+selectTab((HResource) null, (HResource) null, "Signals", 2); // aK
+selectTab((HResource) null, (HResource) null, "Design", 1); // aK
+expandTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, Nets]", 4); // a
+collapseTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, Nets]", 4); // a
+expandTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, Ports]", 3); // a
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, Ports]", 3, true, false, false, false, true, false); // a - Popup Trigger - Node
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_CREATE_PORT, "Create Port..."); // ak
+// bL (cr): Create Port: addNotify
+setText(PAResourceAtoD.CreateRSBPortDialog_PORT_NAME, "sync"); // aa
+selectComboBox(PAResourceAtoD.CreateRSBPortDialog_DIRECTION, "Output", 1); // e
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: RSB_ADD_OBJECT
+dismissDialog("Create Port"); // bL
+// bz (cr):  Create Port : addNotify
+// Tcl Message: create_bd_port -dir O sync 
+dismissDialog("Create Port"); // bz
+// Tcl Command: 'set_property location {1454 -61} [get_bd_ports sync]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {1454 -61} [get_bd_ports sync] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_ports sync] [get_bd_pins axi_gpio_0/gpio_io_o] 
+// Elapsed time: 10 seconds
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h
+// ah (cr): Run Connection Automation: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: XGUI_UPDATE_GUI_ELEMENT
+dismissDialog("Run Connection Automation"); // ah
+// bz (cr):  Run Connection Automation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_0/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_0/S_AXI] 
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: XGUI_RESET_GUI_ELEMENT
+// Tcl Message: Slave segment '/axi_gpio_0/S_AXI/Reg' is being assigned into address space '/processing_system7_0/Data' at <0x4126_0000 [ 64K ]>. 
+dismissDialog("Run Connection Automation"); // bz
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// am (cr): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// bz (cr):  Save Constraints : addNotify
+dismissDialog("Save Project"); // am
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <C:\Zedboard_Projects\ZedboardMemristorControl\design\pmod_spi\pmod_spi.srcs\sources_1\bd\design_1\design_1.bd>  Wrote  : <C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+// A (cr): Synthesis is Out-of-date: addNotify
+dismissDialog("Save Constraints"); // bz
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run design_1_xbar_0_synth_1 
+// cD (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'cA' command handler elapsed time: 7 seconds
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // cD
+// TclEventType: FILE_SET_CHANGE
+// bz (cr):  Generate Bitstream : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a
+// Tcl Message: INFO: [Common 17-365] Interrupt caught but 'launch_runs' cannot be canceled. Please wait for command to finish. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0                    ##############################################################################                   INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.                   ############################################################################## INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0                    ##############################################################################                   INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.                   ############################################################################## 
+// Tcl Message: Wrote  : <C:\Zedboard_Projects\ZedboardMemristorControl\design\pmod_spi\pmod_spi.srcs\sources_1\bd\design_1\design_1.bd>  
+// HMemoryUtils.trashcanNow. Engine heap size: 1,313 MB. GUI used memory: 145 MB. Current time: 2/13/24, 2:04:21 PM CET
+// [Engine Memory]: 1,316 MB (+20996kb) [00:35:25]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 1,415 MB (+34854kb) [00:35:28]
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/synth/design_1.v VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/sim/design_1.v VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// Tcl Message: INFO: [BD 41-1171] User-interrupt detected : Generation halted successfully for IP Integrator design C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/design_1.bd 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [Common 17-681] Processing pending cancel. 
+// Elapsed time: 31 seconds
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 246 seconds
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, Ports, sync]", 12, false); // a
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, Ports, sync]", 12, false); // a
+// Elapsed time: 60 seconds
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, External Interfaces]", 1, true); // a - Node
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1]", 0, true); // a - Node
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1]", 0, true, false, false, false, true, false); // a - Popup Trigger - Node
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aK
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ak
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a (cr): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'af' command handler elapsed time: 3 seconds
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Create HDL Wrapper"); // a
+// TclEventType: RSB_SAVE_DIAGRAM
+// bz (cr):  Create HDL Wrapper : addNotify
+// Tcl Message: make_wrapper -files [get_files C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/design_1.bd] -top 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Wrote  : <C:\Zedboard_Projects\ZedboardMemristorControl\design\pmod_spi\pmod_spi.srcs\sources_1\bd\design_1\design_1.bd>  Wrote  : <C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/synth/design_1.v VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/sim/design_1.v VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+dismissDialog("Create HDL Wrapper"); // bz
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,452 MB. GUI used memory: 145 MB. Current time: 2/13/24, 2:09:51 PM CET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cr):  Resetting Runs : addNotify
+// cD (cr): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // cD
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// bz (cr):  Generate Bitstream : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// Tcl Message: Wrote  : <C:\Zedboard_Projects\ZedboardMemristorControl\design\pmod_spi\pmod_spi.srcs\sources_1\bd\design_1\design_1.bd>  VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/synth/design_1.v VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/sim/design_1.v VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/synth/design_1.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: [Tue Feb 13 14:10:04 2024] Launched design_1_xbar_0_synth_1, design_1_axi_gpio_0_3_synth_1, synth_1... Run output will be captured here: design_1_xbar_0_synth_1: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/design_1_xbar_0_synth_1/runme.log design_1_axi_gpio_0_3_synth_1: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/design_1_axi_gpio_0_3_synth_1/runme.log synth_1: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/synth_1/runme.log [Tue Feb 13 14:10:04 2024] Launched impl_1... Run output will be captured here: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1770.250 ; gain = 9.852 
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// [Engine Memory]: 1,514 MB (+29536kb) [00:41:09]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,514 MB. GUI used memory: 146 MB. Current time: 2/13/24, 2:10:11 PM CET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// [GUI Memory]: 221 MB (+9263kb) [00:43:07]
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cr): Bitstream Generation Completed: addNotify
+// Elapsed time: 356 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+// aH (cr): Feedback Request: addNotify
+dismissDialog("Bitstream Generation Completed"); // ag
+selectButton(PAResourceTtoZ.TouchpointSurveyDialog_NO, "No"); // a
+dismissDialog("Feedback Request"); // aH
+selectButton("OptionPane.button", "OK"); // JButton
+// HMemoryUtils.trashcanNow. Engine heap size: 1,514 MB. GUI used memory: 146 MB. Current time: 2/13/24, 2:40:11 PM CET
+// Elapsed time: 2303 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ah
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_BD_TCL, "Export Block Design..."); // ak
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_BD_TCL
+// cj (cr): Export Block Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'aG' command handler elapsed time: 4 seconds
+// Tcl Command: 'write_bd_tcl -force C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/design_1.tcl'
+dismissDialog("Export Block Design"); // cj
+// Tcl Message: write_bd_tcl -force C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/design_1.tcl 
+// Tcl Message: INFO: [BD 5-148] Tcl file written out <C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/design_1.tcl>.  
+// Elapsed time: 655 seconds
+applyEscape(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, (String) null); // D
+// HMemoryUtils.trashcanNow. Engine heap size: 1,514 MB. GUI used memory: 143 MB. Current time: 2/13/24, 3:10:11 PM CET

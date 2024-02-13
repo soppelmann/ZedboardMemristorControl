@@ -1,10 +1,10 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-// Date        : Tue Feb  6 16:30:02 2024
+// Date        : Tue Feb  6 16:30:01 2024
 // Host        : fedora running 64-bit Red Hat Enterprise Linux Server release 7.5 (Maipo)
-// Command     : write_verilog -force -mode synth_stub
-//               /home/getz/dev/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top design_1_axi_gpio_0_0 -prefix
+//               design_1_axi_gpio_0_0_ design_1_axi_gpio_0_0_stub.v
 // Design      : design_1_axi_gpio_0_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z020clg484-1

@@ -1,8 +1,8 @@
 //Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
-//Tool Version: Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-//Date        : Tue Feb  6 16:27:55 2024
-//Host        : fedora running 64-bit Red Hat Enterprise Linux Server release 7.5 (Maipo)
+//Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+//Date        : Tue Feb 13 14:09:56 2024
+//Host        : LAPTOP-J0FVCJLM running 64-bit major release  (build 9200)
 //Command     : generate_target design_1_wrapper.bd
 //Design      : design_1_wrapper
 //Purpose     : IP block netlist
@@ -38,7 +38,8 @@ module design_1_wrapper
     ex_CTRL_NORTH,
     ex_CTRL_WEST,
     mosi,
-    sclk);
+    sclk,
+    sync);
   inout [14:0]DDR_addr;
   inout [2:0]DDR_ba;
   inout DDR_cas_n;
@@ -68,6 +69,7 @@ module design_1_wrapper
   output [3:0]ex_CTRL_WEST;
   output mosi;
   output sclk;
+  output [0:0]sync;
 
   wire [14:0]DDR_addr;
   wire [2:0]DDR_ba;
@@ -98,6 +100,7 @@ module design_1_wrapper
   wire [3:0]ex_CTRL_WEST;
   wire mosi;
   wire sclk;
+  wire [0:0]sync;
 
   design_1 design_1_i
        (.DDR_addr(DDR_addr),
@@ -128,5 +131,6 @@ module design_1_wrapper
         .ex_CTRL_NORTH(ex_CTRL_NORTH),
         .ex_CTRL_WEST(ex_CTRL_WEST),
         .mosi(mosi),
-        .sclk(sclk));
+        .sclk(sclk),
+        .sync(sync));
 endmodule
