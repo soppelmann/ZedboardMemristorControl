@@ -1,0 +1,6 @@
+[submodule "ip"]
+	path = ip
+	url = https://github.com/Digilent/vivado-library
+[submodule "boards"]
+	path = boards
+	url = git@github.com:Digilent/vivado-boards.git
