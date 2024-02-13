@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Feb  6 16:30:07 2024
+# Process ID: 60595
+# Current directory: /home/getz/dev/pmod_spi/pmod_spi.runs/design_1_axi_gpio_0_2_synth_1
+# Command line: vivado -log design_1_axi_gpio_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_gpio_0_2.tcl
+# Log file: /home/getz/dev/pmod_spi/pmod_spi.runs/design_1_axi_gpio_0_2_synth_1/design_1_axi_gpio_0_2.vds
+# Journal file: /home/getz/dev/pmod_spi/pmod_spi.runs/design_1_axi_gpio_0_2_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_axi_gpio_0_2.tcl -notrace
