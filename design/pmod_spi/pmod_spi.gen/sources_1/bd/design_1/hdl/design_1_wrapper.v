@@ -1,8 +1,8 @@
 //Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
-//Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-//Date        : Tue Feb 13 14:09:56 2024
-//Host        : LAPTOP-J0FVCJLM running 64-bit major release  (build 9200)
+//Tool Version: Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
+//Date        : Fri Mar 22 13:29:39 2024
+//Host        : fedora running 64-bit Red Hat Enterprise Linux Server release 7.5 (Maipo)
 //Command     : generate_target design_1_wrapper.bd
 //Design      : design_1_wrapper
 //Purpose     : IP block netlist
@@ -35,9 +35,12 @@ module design_1_wrapper
     ex_ADC_2,
     ex_ADC_3,
     ex_ADC_4,
-    ex_CTRL_NORTH,
+    ex_ADC_clk,
     ex_CTRL_WEST,
+    ex_PGA_io,
+    ex_PGA_sclk,
     mosi,
+    pga_sync,
     sclk,
     sync);
   inout [14:0]DDR_addr;
@@ -65,9 +68,12 @@ module design_1_wrapper
   input [11:0]ex_ADC_2;
   input [11:0]ex_ADC_3;
   input [11:0]ex_ADC_4;
-  output [3:0]ex_CTRL_NORTH;
+  output ex_ADC_clk;
   output [3:0]ex_CTRL_WEST;
+  output ex_PGA_io;
+  output ex_PGA_sclk;
   output mosi;
+  output [0:0]pga_sync;
   output sclk;
   output [0:0]sync;
 
@@ -96,9 +102,12 @@ module design_1_wrapper
   wire [11:0]ex_ADC_2;
   wire [11:0]ex_ADC_3;
   wire [11:0]ex_ADC_4;
-  wire [3:0]ex_CTRL_NORTH;
+  wire ex_ADC_clk;
   wire [3:0]ex_CTRL_WEST;
+  wire ex_PGA_io;
+  wire ex_PGA_sclk;
   wire mosi;
+  wire [0:0]pga_sync;
   wire sclk;
   wire [0:0]sync;
 
@@ -128,9 +137,12 @@ module design_1_wrapper
         .ex_ADC_2(ex_ADC_2),
         .ex_ADC_3(ex_ADC_3),
         .ex_ADC_4(ex_ADC_4),
-        .ex_CTRL_NORTH(ex_CTRL_NORTH),
+        .ex_ADC_clk(ex_ADC_clk),
         .ex_CTRL_WEST(ex_CTRL_WEST),
+        .ex_PGA_io(ex_PGA_io),
+        .ex_PGA_sclk(ex_PGA_sclk),
         .mosi(mosi),
+        .pga_sync(pga_sync),
         .sclk(sclk),
         .sync(sync));
 endmodule
