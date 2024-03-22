@@ -1,0 +1,325 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Mar 22 15:17:11 2024
+# Process ID: 41704
+# Current directory: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30556 C:\Zedboard_Projects\ZedboardMemristorControl\design\pmod_spi\pmod_spi.xpr
+# Log file: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/vivado.log
+# Journal file: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.xpr
+INFO: [Project 1-313] Project file moved from '/home/getz/dev/git/ZedboardMemristorControl/design/pmod_spi' since last save.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/Zedboard_Projects/ZedboardMemristorControl/Downloads/digilentip/ip', nor could it be found using path 'C:/home/getz/dev/git/ZedboardMemristorControl/Downloads/digilentip/ip'.
+WARNING: [BD 41-2576] File 'C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0_3/design_1_processing_system7_0_0.xci' referenced by design 'design_1' could not be found.
+WARNING: [BD 41-2576] File 'C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ip/design_1_axi_quad_spi_0_0_3/design_1_axi_quad_spi_0_0.xci' referenced by design 'design_1' could not be found.
+WARNING: [BD 41-2576] File 'C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ip/design_1_xbar_0_1/design_1_xbar_0.xci' referenced by design 'design_1' could not be found.
+WARNING: [BD 41-2576] File 'C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0_3/design_1_auto_pc_0.xci' referenced by design 'design_1' could not be found.
+WARNING: [BD 41-2576] File 'C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ip/design_1_ps7_0_axi_periph_0_2/design_1_ps7_0_axi_periph_0.xci' referenced by design 'design_1' could not be found.
+WARNING: [BD 41-2576] File 'C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0_2/design_1_rst_ps7_0_100M_0.xci' referenced by design 'design_1' could not be found.
+WARNING: [BD 41-2576] File 'C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ip/design_1_CTRL_WEST_0/design_1_CTRL_WEST_0.xci' referenced by design 'design_1' could not be found.
+WARNING: [BD 41-2576] File 'C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ip/design_1_ADC_1_0/design_1_ADC_1_0.xci' referenced by design 'design_1' could not be found.
+WARNING: [BD 41-2576] File 'C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ip/design_1_ADC_2_0/design_1_ADC_2_0.xci' referenced by design 'design_1' could not be found.
+WARNING: [BD 41-2576] File 'C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ip/design_1_ADC_3_0/design_1_ADC_3_0.xci' referenced by design 'design_1' could not be found.
+WARNING: [BD 41-2576] File 'C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ip/design_1_ADC_4_0/design_1_ADC_4_0.xci' referenced by design 'design_1' could not be found.
+WARNING: [BD 41-2576] File 'C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0_1/design_1_axi_gpio_0_0.xci' referenced by design 'design_1' could not be found.
+WARNING: [BD 41-2576] File 'C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ip/design_1_axi_quad_spi_0_1/design_1_axi_quad_spi_0_1.xci' referenced by design 'design_1' could not be found.
+WARNING: [BD 41-2576] File 'C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_1_1/design_1_axi_gpio_0_1.xci' referenced by design 'design_1' could not be found.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'design_1_axi_quad_spi_0_1_synth_1' not found
+WARNING: [Project 1-533] File 'C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0_3/design_1_processing_system7_0_0.xci' could not be found in the subdesign 'C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/design_1.bd', but fileset 'design_1_processing_system7_0_0' still exists. The fileset and corresponding run(s) will be deleted the next time top-level synthesis is run.
+WARNING: [Project 1-533] File 'C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ip/design_1_xbar_0_1/design_1_xbar_0.xci' could not be found in the subdesign 'C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/design_1.bd', but fileset 'design_1_xbar_0' still exists. The fileset and corresponding run(s) will be deleted the next time top-level synthesis is run.
+WARNING: [Project 1-533] File 'C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ip/design_1_axi_quad_spi_0_1/design_1_axi_quad_spi_0_1.xci' could not be found in the subdesign 'C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/design_1.bd', but fileset 'design_1_axi_quad_spi_0_1' still exists. The fileset and corresponding run(s) will be deleted the next time top-level synthesis is run.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Zedboard_Projects/ZedboardMemristorControl/Downloads/digilentip/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 1139.582 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_bd_design {C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file <C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: design_1_processing_system7_0_0 
+Adding component instance block -- xilinx.com:ip:axi_quad_spi:3.2 - axi_quad_spi_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: design_1_axi_quad_spi_0_0 
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+INFO: [BD 41-434] Could not find an IP with XCI file by name: design_1_ps7_0_axi_periph_0 
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+INFO: [BD 41-434] Could not find an IP with XCI file by name: design_1_xbar_0 
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+INFO: [BD 41-434] Could not find an IP with XCI file by name: design_1_auto_pc_0 
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+INFO: [BD 41-434] Could not find an IP with XCI file by name: design_1_rst_ps7_0_100M_0 
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - CTRL_WEST
+INFO: [BD 41-434] Could not find an IP with XCI file by name: design_1_CTRL_WEST_0 
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - ADC_1
+INFO: [BD 41-434] Could not find an IP with XCI file by name: design_1_ADC_1_0 
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - ADC_2
+INFO: [BD 41-434] Could not find an IP with XCI file by name: design_1_ADC_2_0 
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - ADC_3
+INFO: [BD 41-434] Could not find an IP with XCI file by name: design_1_ADC_3_0 
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - ADC_4
+INFO: [BD 41-434] Could not find an IP with XCI file by name: design_1_ADC_4_0 
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: design_1_axi_gpio_0_0 
+Adding component instance block -- xilinx.com:ip:axi_quad_spi:3.2 - axi_quad_spi_1
+INFO: [BD 41-434] Could not find an IP with XCI file by name: design_1_axi_quad_spi_0_1 
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - PGA_GPIO
+INFO: [BD 41-434] Could not find an IP with XCI file by name: design_1_axi_gpio_0_1 
+Successfully read diagram <design_1> from block design file <C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/design_1.bd>
+INFO: [BD 41-433] 
+Design successfully migrated to use XCI files...
+open_bd_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 1367.926 ; gain = 228.344
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:clk_wiz:6.0 clk_wiz_0
+endgroup
+delete_bd_objs [get_bd_cells clk_wiz_0]
+set_property name DA4_GPIO [get_bd_cells axi_gpio_0]
+set_property name da4_sync [get_bd_ports sync]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_clock_converter:1.1 axis_clock_converter_0
+endgroup
+delete_bd_objs [get_bd_cells axis_clock_converter_0]
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+endgroup
+set_property name PGA_SPI [get_bd_cells axi_quad_spi_1]
+set_property name DA4_SPI [get_bd_cells axi_quad_spi_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:clk_wiz:6.0 clk_wiz_0
+endgroup
+set_property location {5 1294 38} [get_bd_cells clk_wiz_0]
+set_property -dict [list CONFIG.PRIM_IN_FREQ.VALUE_SRC USER] [get_bd_cells clk_wiz_0]
+set_property -dict [list CONFIG.PRIMITIVE {PLL} CONFIG.PRIM_IN_FREQ {20} CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {20} CONFIG.USE_LOCKED {false} CONFIG.USE_RESET {false} CONFIG.CLKIN1_JITTER_PS {500.0} CONFIG.CLKOUT1_DRIVES {BUFG} CONFIG.CLKOUT2_DRIVES {BUFG} CONFIG.CLKOUT3_DRIVES {BUFG} CONFIG.CLKOUT4_DRIVES {BUFG} CONFIG.CLKOUT5_DRIVES {BUFG} CONFIG.CLKOUT6_DRIVES {BUFG} CONFIG.CLKOUT7_DRIVES {BUFG} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_BANDWIDTH {OPTIMIZED} CONFIG.MMCM_CLKFBOUT_MULT_F {41} CONFIG.MMCM_CLKIN1_PERIOD {50.000} CONFIG.MMCM_CLKIN2_PERIOD {10.0} CONFIG.MMCM_COMPENSATION {ZHOLD} CONFIG.MMCM_CLKOUT0_DIVIDE_F {41} CONFIG.PLL_CLKIN_PERIOD {50.000} CONFIG.CLKOUT1_JITTER {485.930} CONFIG.CLKOUT1_PHASE_ERROR {313.282}] [get_bd_cells clk_wiz_0]
+delete_bd_objs [get_bd_nets processing_system7_0_FCLK_CLK2]
+connect_bd_net [get_bd_ports ex_ADC_clk] [get_bd_pins clk_wiz_0/clk_out1]
+connect_bd_net [get_bd_pins processing_system7_0/FCLK_CLK1] [get_bd_pins clk_wiz_0/clk_in1]
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins processing_system7_0/FCLK_CLK1] [get_bd_pins clk_wiz_0/clk_in1]'
+set_property location {4 1419 36} [get_bd_cells clk_wiz_0]
+connect_bd_net [get_bd_pins clk_wiz_0/clk_in1] [get_bd_pins processing_system7_0/FCLK_CLK2]
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+endgroup
+make_wrapper -files [get_files C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/design_1.bd] -top
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /DA4_SPI 
+                  ##############################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.
+                  ##############################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /DA4_SPI 
+                  ##############################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.
+                  ##############################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /PGA_SPI 
+                  ##############################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.
+                  ##############################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /PGA_SPI 
+                  ##############################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.
+                  ##############################################################################
+Wrote  : <C:\Zedboard_Projects\ZedboardMemristorControl\design\pmod_spi\pmod_spi.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/synth/design_1.v
+VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+make_wrapper: Time (s): cpu = 00:00:12 ; elapsed = 00:00:35 . Memory (MB): peak = 2046.930 ; gain = 194.066
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <C:\Zedboard_Projects\ZedboardMemristorControl\design\pmod_spi\pmod_spi.srcs\sources_1\bd\design_1\design_1.bd> 
+VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/synth/design_1.v
+VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+WARNING: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DA4_SPI .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CTRL_WEST .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ADC_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ADC_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ADC_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ADC_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DA4_GPIO .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PGA_SPI .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PGA_GPIO .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_auto_pc_9/design_1_auto_pc_9_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0_3/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m01_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_auto_pc_2/design_1_auto_pc_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m03_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_auto_pc_3/design_1_auto_pc_3_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m04_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_auto_pc_4/design_1_auto_pc_4_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m05_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_auto_pc_5/design_1_auto_pc_5_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m06_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_auto_pc_6/design_1_auto_pc_6_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m07_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_auto_pc_7/design_1_auto_pc_7_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m08_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_auto_pc_8/design_1_auto_pc_8_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m09_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+Exporting to file c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_ADC_1_0
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_ADC_2_0
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_ADC_3_0
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_ADC_4_0
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_CTRL_WEST_0
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_PGA_GPIO_0
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_0
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_1
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_2
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_3
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_4
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_5
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_6
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_7
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_8
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_9
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_axi_gpio_0_0
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_axi_quad_spi_0_0
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_axi_quad_spi_1_0
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_clk_wiz_0_1
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_processing_system7_0_0
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_rst_ps7_0_100M_0
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_xbar_0
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_ADC_1_0, cache-ID = a0360062b4c5bfb0; cache size = 9.843 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_ADC_2_0, cache-ID = a0360062b4c5bfb0; cache size = 9.843 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_ADC_3_0, cache-ID = a0360062b4c5bfb0; cache size = 9.843 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_ADC_4_0, cache-ID = a0360062b4c5bfb0; cache size = 9.843 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_CTRL_WEST_0, cache-ID = fbc9dd2244359112; cache size = 9.843 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_PGA_GPIO_0, cache-ID = d5ff82228c915dee; cache size = 9.843 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_gpio_0_0, cache-ID = d5ff82228c915dee; cache size = 9.843 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_quad_spi_0_0, cache-ID = 869fe011af649976; cache size = 9.843 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_rst_ps7_0_100M_0, cache-ID = 75144416af4267cf; cache size = 9.843 MB.
+[Fri Mar 22 16:07:37 2024] Launched design_1_clk_wiz_0_1_synth_1, design_1_auto_pc_7_synth_1, design_1_auto_pc_6_synth_1, design_1_auto_pc_2_synth_1, design_1_auto_pc_8_synth_1, design_1_auto_pc_3_synth_1, design_1_auto_pc_5_synth_1, design_1_auto_pc_0_synth_1, design_1_auto_pc_4_synth_1, design_1_auto_pc_1_synth_1, design_1_auto_pc_9_synth_1, design_1_axi_quad_spi_1_0_synth_1, design_1_xbar_0_synth_1, design_1_processing_system7_0_0_synth_1, synth_1...
+Run output will be captured here:
+design_1_clk_wiz_0_1_synth_1: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/design_1_clk_wiz_0_1_synth_1/runme.log
+design_1_auto_pc_7_synth_1: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/design_1_auto_pc_7_synth_1/runme.log
+design_1_auto_pc_6_synth_1: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/design_1_auto_pc_6_synth_1/runme.log
+design_1_auto_pc_2_synth_1: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/design_1_auto_pc_2_synth_1/runme.log
+design_1_auto_pc_8_synth_1: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/design_1_auto_pc_8_synth_1/runme.log
+design_1_auto_pc_3_synth_1: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/design_1_auto_pc_3_synth_1/runme.log
+design_1_auto_pc_5_synth_1: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/design_1_auto_pc_5_synth_1/runme.log
+design_1_auto_pc_0_synth_1: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/design_1_auto_pc_0_synth_1/runme.log
+design_1_auto_pc_4_synth_1: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/design_1_auto_pc_4_synth_1/runme.log
+design_1_auto_pc_1_synth_1: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/design_1_auto_pc_1_synth_1/runme.log
+design_1_auto_pc_9_synth_1: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/design_1_auto_pc_9_synth_1/runme.log
+design_1_axi_quad_spi_1_0_synth_1: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/design_1_axi_quad_spi_1_0_synth_1/runme.log
+design_1_xbar_0_synth_1: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/design_1_xbar_0_synth_1/runme.log
+design_1_processing_system7_0_0_synth_1: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/design_1_processing_system7_0_0_synth_1/runme.log
+synth_1: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/synth_1/runme.log
+[Fri Mar 22 16:07:38 2024] Launched impl_1...
+Run output will be captured here: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:20 ; elapsed = 00:00:38 . Memory (MB): peak = 2103.875 ; gain = 47.320
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:oddr:1.0 oddr_0
+endgroup
+delete_bd_objs [get_bd_nets clk_wiz_0_clk_out1] [get_bd_nets processing_system7_0_FCLK_CLK2] [get_bd_cells clk_wiz_0]
+set_property location {4 1365 58} [get_bd_cells oddr_0]
+connect_bd_net [get_bd_ports ex_ADC_clk] [get_bd_pins oddr_0/clk_out]
+connect_bd_net [get_bd_pins processing_system7_0/FCLK_CLK2] [get_bd_pins oddr_0/clk_in]
+save_bd_design
+Wrote  : <C:\Zedboard_Projects\ZedboardMemristorControl\design\pmod_spi\pmod_spi.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+make_wrapper -files [get_files C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/design_1.bd] -top
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /DA4_SPI 
+                  ##############################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.
+                  ##############################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /DA4_SPI 
+                  ##############################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.
+                  ##############################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /PGA_SPI 
+                  ##############################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.
+                  ##############################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /PGA_SPI 
+                  ##############################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.
+                  ##############################################################################
+Wrote  : <C:\Zedboard_Projects\ZedboardMemristorControl\design\pmod_spi\pmod_spi.srcs\sources_1\bd\design_1\design_1.bd> 
+VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/synth/design_1.v
+VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+make_wrapper: Time (s): cpu = 00:00:13 ; elapsed = 00:00:39 . Memory (MB): peak = 2166.203 ; gain = 0.000
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <C:\Zedboard_Projects\ZedboardMemristorControl\design\pmod_spi\pmod_spi.srcs\sources_1\bd\design_1\design_1.bd> 
+VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/synth/design_1.v
+VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block oddr_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_auto_pc_9/design_1_auto_pc_9_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0_3/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m01_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_auto_pc_2/design_1_auto_pc_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m03_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_auto_pc_3/design_1_auto_pc_3_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m04_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_auto_pc_4/design_1_auto_pc_4_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m05_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_auto_pc_5/design_1_auto_pc_5_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m06_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_auto_pc_6/design_1_auto_pc_6_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m07_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_auto_pc_7/design_1_auto_pc_7_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m08_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/ip/design_1_auto_pc_8/design_1_auto_pc_8_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m09_couplers/auto_pc .
+Exporting to file c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File c:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.gen/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_0
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_1
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_2
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_3
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_4
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_5
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_6
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_7
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_8
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_9
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_oddr_0_0
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = e6f740466983a1a9; cache size = 17.577 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_oddr_0_0, cache-ID = f1c4a95879417ea5; cache size = 17.577 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_1, cache-ID = e6f740466983a1a9; cache size = 17.577 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_2, cache-ID = e6f740466983a1a9; cache size = 17.577 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_3, cache-ID = e6f740466983a1a9; cache size = 17.577 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_4, cache-ID = e6f740466983a1a9; cache size = 17.577 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_5, cache-ID = e6f740466983a1a9; cache size = 17.577 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_6, cache-ID = e6f740466983a1a9; cache size = 17.577 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_7, cache-ID = e6f740466983a1a9; cache size = 17.577 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_8, cache-ID = e6f740466983a1a9; cache size = 17.577 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_9, cache-ID = 7f947b8447341b9f; cache size = 17.577 MB.
+[Fri Mar 22 16:17:04 2024] Launched synth_1...
+Run output will be captured here: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/synth_1/runme.log
+[Fri Mar 22 16:17:04 2024] Launched impl_1...
+Run output will be captured here: C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 2166.203 ; gain = 0.000
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.498 . Memory (MB): peak = 2233.957 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 328 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.

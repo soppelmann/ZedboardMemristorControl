@@ -1,8 +1,8 @@
 //Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
-//Tool Version: Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-//Date        : Fri Mar 22 13:29:39 2024
-//Host        : fedora running 64-bit Red Hat Enterprise Linux Server release 7.5 (Maipo)
+//Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+//Date        : Fri Mar 22 16:16:58 2024
+//Host        : LAPTOP-J0FVCJLM running 64-bit major release  (build 9200)
 //Command     : generate_target design_1_wrapper.bd
 //Design      : design_1_wrapper
 //Purpose     : IP block netlist
@@ -31,6 +31,7 @@ module design_1_wrapper
     FIXED_IO_ps_clk,
     FIXED_IO_ps_porb,
     FIXED_IO_ps_srstb,
+    da4_sync,
     ex_ADC_1,
     ex_ADC_2,
     ex_ADC_3,
@@ -41,8 +42,7 @@ module design_1_wrapper
     ex_PGA_sclk,
     mosi,
     pga_sync,
-    sclk,
-    sync);
+    sclk);
   inout [14:0]DDR_addr;
   inout [2:0]DDR_ba;
   inout DDR_cas_n;
@@ -64,6 +64,7 @@ module design_1_wrapper
   inout FIXED_IO_ps_clk;
   inout FIXED_IO_ps_porb;
   inout FIXED_IO_ps_srstb;
+  output [0:0]da4_sync;
   input [11:0]ex_ADC_1;
   input [11:0]ex_ADC_2;
   input [11:0]ex_ADC_3;
@@ -75,7 +76,6 @@ module design_1_wrapper
   output mosi;
   output [0:0]pga_sync;
   output sclk;
-  output [0:0]sync;
 
   wire [14:0]DDR_addr;
   wire [2:0]DDR_ba;
@@ -98,6 +98,7 @@ module design_1_wrapper
   wire FIXED_IO_ps_clk;
   wire FIXED_IO_ps_porb;
   wire FIXED_IO_ps_srstb;
+  wire [0:0]da4_sync;
   wire [11:0]ex_ADC_1;
   wire [11:0]ex_ADC_2;
   wire [11:0]ex_ADC_3;
@@ -109,7 +110,6 @@ module design_1_wrapper
   wire mosi;
   wire [0:0]pga_sync;
   wire sclk;
-  wire [0:0]sync;
 
   design_1 design_1_i
        (.DDR_addr(DDR_addr),
@@ -133,6 +133,7 @@ module design_1_wrapper
         .FIXED_IO_ps_clk(FIXED_IO_ps_clk),
         .FIXED_IO_ps_porb(FIXED_IO_ps_porb),
         .FIXED_IO_ps_srstb(FIXED_IO_ps_srstb),
+        .da4_sync(da4_sync),
         .ex_ADC_1(ex_ADC_1),
         .ex_ADC_2(ex_ADC_2),
         .ex_ADC_3(ex_ADC_3),
@@ -143,6 +144,5 @@ module design_1_wrapper
         .ex_PGA_sclk(ex_PGA_sclk),
         .mosi(mosi),
         .pga_sync(pga_sync),
-        .sclk(sclk),
-        .sync(sync));
+        .sclk(sclk));
 endmodule

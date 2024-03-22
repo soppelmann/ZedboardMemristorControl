@@ -1,6 +1,6 @@
-set_property SRC_FILE_INFO {cfile:/home/getz/dev/git/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/constrs_1/new/zedboard.xdc rfile:../../../pmod_spi.srcs/constrs_1/new/zedboard.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/constrs_1/new/zedboard.xdc rfile:../../../pmod_spi.srcs/constrs_1/new/zedboard.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:87 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN Y11  [get_ports {sync}];  # "JA1"
+set_property PACKAGE_PIN Y11  [get_ports {da4_sync}];  # "JA1"
 set_property src_info {type:XDC file:1 line:89 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AA11 [get_ports {mosi}];  # "JA2"
 set_property src_info {type:XDC file:1 line:92 export:INPUT save:INPUT read:READ} [current_design]

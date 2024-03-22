@@ -1,8 +1,8 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-| Date         : Fri Mar 22 13:34:08 2024
-| Host         : fedora running 64-bit Red Hat Enterprise Linux Server release 7.5 (Maipo)
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Mar 22 16:20:35 2024
+| Host         : LAPTOP-J0FVCJLM running 64-bit major release  (build 9200)
 | Command      : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
 | Design       : design_1_wrapper
 | Device       : xc7z020clg484-1
@@ -23,24 +23,24 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 60
+             Violations found: 61
 +-----------+----------+-------------------------------------------------+------------+
 | Rule      | Severity | Description                                     | Violations |
 +-----------+----------+-------------------------------------------------+------------+
 | PDRC-190  | Warning  | Suboptimally placed synchronized register chain | 2          |
-| TIMING-18 | Warning  | Missing input or output delay                   | 58         |
+| TIMING-18 | Warning  | Missing input or output delay                   | 59         |
 +-----------+----------+-------------------------------------------------+------------+
 
 2. REPORT DETAILS
 -----------------
 PDRC-190#1 Warning
 Suboptimally placed synchronized register chain  
-The FDRE cell design_1_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.CLK_CROSS_I/LOGIC_GENERATION_CDC.RX_FIFO_RST_AX2S_1/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to in site SLICE_X42Y69 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell design_1_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.CLK_CROSS_I/LOGIC_GENERATION_CDC.RX_FIFO_RST_AX2S_1_CDC_1 is not placed in the same (SLICE) site.
+The FDRE cell design_1_i/DA4_SPI/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.CLK_CROSS_I/LOGIC_GENERATION_CDC.RX_FIFO_RST_AX2S_1/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to in site SLICE_X32Y32 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell design_1_i/DA4_SPI/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.CLK_CROSS_I/LOGIC_GENERATION_CDC.RX_FIFO_RST_AX2S_1_CDC_1 is not placed in the same (SLICE) site.
 Related violations: <none>
 
 PDRC-190#2 Warning
 Suboptimally placed synchronized register chain  
-The FDRE cell design_1_i/axi_quad_spi_1/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.CLK_CROSS_I/LOGIC_GENERATION_CDC.RX_FIFO_RST_AX2S_1/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to in site SLICE_X42Y98 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell design_1_i/axi_quad_spi_1/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.CLK_CROSS_I/LOGIC_GENERATION_CDC.RX_FIFO_RST_AX2S_1_CDC_1 is not placed in the same (SLICE) site.
+The FDRE cell design_1_i/PGA_SPI/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.CLK_CROSS_I/LOGIC_GENERATION_CDC.RX_FIFO_RST_AX2S_1/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to in site SLICE_X73Y33 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell design_1_i/PGA_SPI/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.CLK_CROSS_I/LOGIC_GENERATION_CDC.RX_FIFO_RST_AX2S_1_CDC_1 is not placed in the same (SLICE) site.
 Related violations: <none>
 
 TIMING-18#1 Warning
@@ -285,52 +285,57 @@ Related violations: <none>
 
 TIMING-18#49 Warning
 Missing input or output delay  
-An output delay is missing on ex_CTRL_WEST[0] relative to clock(s) clk_fpga_0
+An output delay is missing on da4_sync[0] relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#50 Warning
 Missing input or output delay  
-An output delay is missing on ex_CTRL_WEST[1] relative to clock(s) clk_fpga_0
+An output delay is missing on ex_ADC_clk relative to clock(s) clk_fpga_2
 Related violations: <none>
 
 TIMING-18#51 Warning
 Missing input or output delay  
-An output delay is missing on ex_CTRL_WEST[2] relative to clock(s) clk_fpga_0
+An output delay is missing on ex_CTRL_WEST[0] relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#52 Warning
 Missing input or output delay  
-An output delay is missing on ex_CTRL_WEST[3] relative to clock(s) clk_fpga_0
+An output delay is missing on ex_CTRL_WEST[1] relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#53 Warning
 Missing input or output delay  
-An output delay is missing on ex_PGA_io relative to clock(s) clk_fpga_3
+An output delay is missing on ex_CTRL_WEST[2] relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#54 Warning
 Missing input or output delay  
-An output delay is missing on ex_PGA_sclk relative to clock(s) clk_fpga_3
+An output delay is missing on ex_CTRL_WEST[3] relative to clock(s) clk_fpga_0
 Related violations: <none>
 
 TIMING-18#55 Warning
 Missing input or output delay  
-An output delay is missing on mosi relative to clock(s) clk_fpga_1
+An output delay is missing on ex_PGA_io relative to clock(s) clk_fpga_3
 Related violations: <none>
 
 TIMING-18#56 Warning
 Missing input or output delay  
-An output delay is missing on pga_sync[0] relative to clock(s) clk_fpga_0
+An output delay is missing on ex_PGA_sclk relative to clock(s) clk_fpga_3
 Related violations: <none>
 
 TIMING-18#57 Warning
 Missing input or output delay  
-An output delay is missing on sclk relative to clock(s) clk_fpga_1
+An output delay is missing on mosi relative to clock(s) clk_fpga_1
 Related violations: <none>
 
 TIMING-18#58 Warning
 Missing input or output delay  
-An output delay is missing on sync[0] relative to clock(s) clk_fpga_0
+An output delay is missing on pga_sync[0] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#59 Warning
+Missing input or output delay  
+An output delay is missing on sclk relative to clock(s) clk_fpga_1
 Related violations: <none>
 
 

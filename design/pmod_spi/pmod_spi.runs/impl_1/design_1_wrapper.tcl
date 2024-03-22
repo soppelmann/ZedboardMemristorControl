@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "/home/getz/dev/git/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/impl_1/design_1_wrapper.tcl"
+  variable script "C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/impl_1/design_1_wrapper.tcl"
   variable category "vivado_impl"
 }
 
@@ -130,22 +130,22 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir /home/getz/dev/git/ZedboardMemristorControl/design/pmod_spi/pmod_spi.cache/wt [current_project]
-  set_property parent.project_path /home/getz/dev/git/ZedboardMemristorControl/design/pmod_spi/pmod_spi.xpr [current_project]
-  set_property ip_repo_paths /home/getz/dev/git/ZedboardMemristorControl/Downloads/digilentip/ip [current_project]
+  set_property webtalk.parent_dir C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.cache/wt [current_project]
+  set_property parent.project_path C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.xpr [current_project]
+  set_property ip_repo_paths C:/Zedboard_Projects/ZedboardMemristorControl/Downloads/digilentip/ip [current_project]
   update_ip_catalog
-  set_property ip_output_repo /home/getz/dev/git/ZedboardMemristorControl/design/pmod_spi/pmod_spi.cache/ip [current_project]
+  set_property ip_output_repo C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet /home/getz/dev/git/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/synth_1/design_1_wrapper.dcp
+  add_files -quiet C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.runs/synth_1/design_1_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  add_files /home/getz/dev/git/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/design_1.bd
+  add_files C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/sources_1/bd/design_1/design_1.bd
   set_param project.isImplRun false
 OPTRACE "read constraints: implementation" START { }
-  read_xdc /home/getz/dev/git/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/constrs_1/new/zedboard.xdc
+  read_xdc C:/Zedboard_Projects/ZedboardMemristorControl/design/pmod_spi/pmod_spi.srcs/constrs_1/new/zedboard.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }
