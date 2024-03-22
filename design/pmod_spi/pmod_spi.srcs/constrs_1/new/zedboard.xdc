@@ -84,8 +84,8 @@
 # ----------------------------------------------------------------------------
 # JA Pmod - Bank 13
 # ----------------------------------------------------------------------------
-set_property PACKAGE_PIN Y11  [get_ports {sync}];  # "JA1"
-set_property IOSTANDARD LVCMOS33 [get_ports {sync}];
+set_property PACKAGE_PIN Y11  [get_ports {da4_sync}];  # "JA1"
+set_property IOSTANDARD LVCMOS33 [get_ports {da4_sync}];
 set_property PACKAGE_PIN AA11 [get_ports {mosi}];  # "JA2"
 set_property IOSTANDARD LVCMOS33 [get_ports {mosi}];
 #set_property PACKAGE_PIN Y10  [get_ports {JA3}];  # "JA3"
